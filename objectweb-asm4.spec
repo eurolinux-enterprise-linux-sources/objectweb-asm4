@@ -30,7 +30,7 @@
 
 Name:           objectweb-asm4
 Version:        4.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 Epoch:          0
 Summary:        A code manipulation tool to implement adaptable systems
 License:        BSD
@@ -120,6 +120,9 @@ cp -pr output/dist/doc/javadoc/user/* %{buildroot}%{_javadocdir}/%{name}
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 04.0-3
+- Mass rebuild 2013-12-27
+
 * Thu Aug 02 2012 gil cattaneo <puntogil@libero.it> 0:4.0-2
 - Fixed epoch
 
