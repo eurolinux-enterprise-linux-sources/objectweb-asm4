@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.3
+Bundle-SymbolicName: org.objectweb.asm
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Bundle-Version: 4.0
+Bundle-Vendor: %providerName
+Export-Package: org.objectweb.asm;version=4.0,org.objectweb.asm.signat
+ ure;version=4.0,org.objectweb.asm.commons;version=4.0,org.objectweb.a
+ sm.tree;version=4.0,org.objectweb.asm.tree.analysis;version=4.0,org.o
+ bjectweb.asm.util;version=4.0,org.objectweb.asm.xml;version=4.0
+
